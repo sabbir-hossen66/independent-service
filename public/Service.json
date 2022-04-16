@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Walter Lewin",
+        "fee": 580,
+        "description": "'He is the best teacher in the world'",
+        "img": "https://i.ibb.co/rmqWmWM/scott-graham-5f-Nm-Wej4t-AA-unsplash.png"
+    },
+    {
+        "name": "Tom Kruso",
+        "fee": 475,
+        "description": "'He is the best teacher in the world'",
+        "img": "https://i.ibb.co/0QvvPLk/malte-helmhold-m-Qmuv-3j-AOc-unsplash.png"
+    },
+    {
+        "name": "Justin langer",
+        "fee": 610,
+        "description": "'He is the best teacher in the world'",
+        "img": "https://i.ibb.co/rmqWmWM/scott-graham-5f-Nm-Wej4t-AA-unsplash.png"
+    }
+]
