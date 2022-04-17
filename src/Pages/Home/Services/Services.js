@@ -12,12 +12,14 @@ const Services = () => {
 
     return (
         <div>
-            <h1 className='services-headline'>The qualityful tutor provide these services</h1>
-            {
-                services.map(service => <Service
-                    key={service.id} service={service}
-                ></Service>)
-            }
+            <h1 className='services-headline my-5'>The qualityful tutor provide these services</h1>
+            <div className="services-container">
+                {
+                    services.map(service => <Service
+                        key={service.id} service={service}
+                    ></Service>)
+                }
+            </div>
         </div>
     );
 };

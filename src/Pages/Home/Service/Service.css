@@ -1,3 +1,10 @@
+.service-container {
+    border: solid goldenrod;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
 .service-name {
     color: orange;
     font-family: serif;
@@ -9,7 +16,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 7px;
     display: inline;
 
 }
