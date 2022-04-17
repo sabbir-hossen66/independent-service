@@ -15,43 +15,45 @@ const Banner = () => {
         setIndex(selectedIndex);
     };
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100 h-90"
-                    src={banner1}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Education is the backbone of a nation</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100 h-90"
-                    src={banner2}
-                    alt="Second slide"
-                />
+        <div className='w-75 mx-auto'>
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100 "
+                        src={banner1}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Education is the backbone of a nation</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100 "
+                        src={banner2}
+                        alt="Second slide"
+                    />
 
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>A book is a true friend for everyone</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img w-
-                    className="d-block w-100 h-90"
-                    src={banner3}
-                    alt="Third slide"
-                />
+                    <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>A book is a true friend for everyone</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100 "
+                        src={banner3}
+                        alt="Third slide"
+                    />
 
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>The Educational site...</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>The Educational site...</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </div>
 
     );
 };
