@@ -8,7 +8,7 @@ const Footer = () => {
 
 
     return (
-        <footer className='text-center mt-5'>
+        <footer className='text-center py-5'>
             <p><small><span className='copy-right'> Copyright ©{year}</span></small></p>
         </footer>
     );
