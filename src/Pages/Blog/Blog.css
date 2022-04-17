@@ -5,3 +5,18 @@
 .question-style {
     color: deeppink;
 }
+
+.ans-style {
+    color: coral;
+    font-weight: 700;
+
+}
+
+.pragraph-style {
+    color: hotpink;
+}
+
+.new-style {
+    cursor: pointer;
+    color: darkgoldenrod;
+}
