@@ -66,7 +66,7 @@ const Login = () => {
                 </Button>
             </Form>
             <p>New student <Link to='/register' className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
-            <h3 className='text-danger cursor-pointer pe-auto' onClick={resetPassWord}>Forget Your password...</h3>
+            <p className='text-danger pe-auto' onClick={resetPassWord}>Forget Your password...</p>
             <SocialLogin></SocialLogin>
 
         </div>
