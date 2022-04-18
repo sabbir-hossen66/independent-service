@@ -1,9 +1,13 @@
 .service-container {
+    width: 400px;
     border: solid goldenrod;
     border-radius: 10px;
     padding-bottom: 5px;
     text-align: center;
+    overflow: hidden;
 }
+
+
 
 .service-name {
     color: orange;
@@ -14,8 +18,8 @@
 
 .description-style {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
-    color: white;
+
+
     padding: 7px;
     display: inline;
 
