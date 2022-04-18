@@ -1,0 +1,13 @@
+.proced-button {
+    background-color: rgba(0, 0, 0, 0.705);
+    text-decoration: none;
+    font-style: unset;
+    color: white;
+    padding: 12px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.proced-button:hover {
+    background-color: cornflowerblue;
+}

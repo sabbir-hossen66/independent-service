@@ -5,17 +5,13 @@ import logo from '../../../images/logo.jpg'
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { signOut } from 'firebase/auth';
 
 const Header = () => {
     const [user] = useAuthState(auth)
-    const singOut = () => {
-        singOut(auth)
-            .then(() => {
+    const handleSingOut = () => {
+        signOut(auth)
 
-            })
-            .catch((error) => {
-
-            })
     }
     return (
         <>
@@ -40,7 +36,7 @@ const Header = () => {
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="about">About</Nav.Link>
-                            {user ? <button onClick={singOut}>singout</button> :
+                            {user ? <button onClick={handleSingOut}>sign out</button> :
 
                                 <Nav.Link as={Link} to="/login">
                                     Login
