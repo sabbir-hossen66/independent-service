@@ -1,6 +1,6 @@
 # Getting Started with Teach-Pitch
 
-This project was bootstrapped with [TeachPitch](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [TeachPitch](https://teach-pitch-project.web.app/).
 
 ## React router added and project set up
 
