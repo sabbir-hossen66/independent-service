@@ -1,0 +1,17 @@
+.google-btn {
+    width: 350px;
+    padding: 15px;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    font-family: inherit;
+    display: block;
+    margin: auto;
+}
+
+.google-btn:hover {
+    background-color: deepskyblue;
+}
